@@ -665,7 +665,7 @@ class App extends React.Component {
         />
 
         <Navbar  bg="dark" variant="dark" expand="lg" style={{position:'sticky', zIndex: 100, top: 0}} >
-          <Navbar.Brand><a href="https://www.wisc.edu" target="_blank" rel="noopener noreferrer"><img src='/UWlogo.png' height="42" width="124" alt="hello"/></a></Navbar.Brand>
+          <Navbar.Brand><a href="https://www.wisc.edu" target="_blank" rel="noopener noreferrer"><img src='https://raw.githubusercontent.com/youminhan/CS639/master/public/UWlogo.png' height="42" width="124" alt="hello"/></a></Navbar.Brand>
           <Navbar.Brand >Course Search & Enroll</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
