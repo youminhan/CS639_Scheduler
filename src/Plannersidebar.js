@@ -209,10 +209,10 @@ class Sidebar extends React.Component {
         <div style={{width: 'calc(65vw)', marginDown: '10px', marginTop: '30px', marginLeft: 'calc(31vw + 15px)', overflow: 'auto'}}>
        
          <Card.Title>
-         <Button size="lg" variant="danger" onClick={() => {this.decreaseindex()}}>  <img src='https://raw.githubusercontent.com/youminhan/CS639/master/public/previous.png' height="30" width="30" alt="hello"/></Button>
+         <Button size="lg" variant="danger" onClick={() => {this.decreaseindex()}}>  <img src='https://raw.githubusercontent.com/youminhan/CS639_Scheduler/master/public/previous.png' height="30" width="30" alt="hello"/></Button>
             
         <h style={{marginLeft: 'calc(20vw + 15px)', textAlign: 'center'}}> {this.props.scheduledata.length === 0 ? this.state.index : this.state.index + 1} of {this.props.scheduledata.length} Schedules</h>
-        <Button size="lg" variant="danger" style={{ float: 'right'}} onClick={() => {this.increaseindex()}}> <img src='https://raw.githubusercontent.com/youminhan/CS639/master/public/next.png' height="30" width="30" alt="hello"/></Button>
+        <Button size="lg" variant="danger" style={{ float: 'right'}} onClick={() => {this.increaseindex()}}> <img src='https://raw.githubusercontent.com/youminhan/CS639_Scheduler/master/public/next.png' height="30" width="30" alt="hello"/></Button>
         </Card.Title>
         {this.showwelcome(this.props.scheduledata)}
         <CardDeck style={{marginTop: '10px'}}>
@@ -285,7 +285,7 @@ class Sidebar extends React.Component {
             <br/>
             Please add the course to the cart and select from the left column 
             <br/><br/><br/>
-            <img src='https://raw.githubusercontent.com/youminhan/CS639/master/public/UWLogo_Center.png' height="300" width="350" alt="hello"/>
+            <img src='https://raw.githubusercontent.com/youminhan/CS639_Scheduler/master/public/UWLogo_Center.png' height="300" width="350" alt="hello"/>
             </div>
             
             )
